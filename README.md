@@ -2,6 +2,13 @@
 
 Este proyecto permite controlar una **matriz de 9 LEDs (3x3)** conectada a un Arduino utilizando comunicación serial desde un programa en **Python**. El usuario puede seleccionar cuál LED encender desde un menú en consola, enviando el número correspondiente del 1 al 9.
 
+## 🎥 Video de demostración
+
+[![Ver en YouTube](https://img.youtube.com/vi/vwQbd1ecyJA/0.jpg)](https://youtu.be/vwQbd1ecyJA)
+
+> Haz clic en la imagen para ver el video en YouTube.
+
+
 ## 🛠 Materiales utilizados
 
 - 1 Arduino UNO (o compatible)
@@ -30,6 +37,7 @@ Este proyecto permite controlar una **matriz de 9 LEDs (3x3)** conectada a un Ar
 | 7    | 8           |
 | 8    | 9           |
 | 9    | 10          |
+
 
 ## 🧠 Lógica en Arduino
 
@@ -60,3 +68,5 @@ void loop() {
     }
   }
 }
+
+
